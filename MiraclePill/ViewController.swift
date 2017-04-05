@@ -92,6 +92,8 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         zipcodeField.isHidden = false
     }
     
+    
+    //buyNowBtn shows success image and hides all others
     @IBAction func buyNowBtn(_ sender: Any) {
         for view in self.view.subviews as [UIView] {
             view.isHidden = true
